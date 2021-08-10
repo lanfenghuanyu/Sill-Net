@@ -38,4 +38,4 @@ Our training is based on PT-MAP, refering to the codes [here](https://github.com
 ## Training Tips 
 1. For better results, increase the batchsize (64 or 128). For limited GPU memory, set the batchsize as 16. 
 
-2. Adjust the number of support samples ('choose_sup = 1 or more') for batches to balance the training speed and memory. 
+2. Adjust the number of support samples ('choose_sup' = 1 or more) for batches to balance the training speed and memory. 
