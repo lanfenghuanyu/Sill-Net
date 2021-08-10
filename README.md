@@ -33,7 +33,7 @@ This repository is the official basic implementation of Separating-Illumination 
 
 ## Generalized one/few-shot models
 
-Our training is based on PT-MAP, refering to the codes [here] (https://github.com/yhu01/PT-MAP). Our trained models are released [here](https://drive.google.com/drive/folders/1iQzZdFte8gcLtIZdDXASqpCgJLMnUCuP?usp=sharing).
+Our training is based on PT-MAP, refering to the codes [here](https://github.com/yhu01/PT-MAP). Our trained models are released [here](https://drive.google.com/drive/folders/1iQzZdFte8gcLtIZdDXASqpCgJLMnUCuP?usp=sharing).
 
 ## Training Tips
 1. For better results, increase the batchsize (64 or 128). For limited GPU memory, set the batchsize as 16. 
