@@ -34,7 +34,7 @@ This repository is the official basic implementation of Separating-Illumination 
 ## Generalized one/few-shot models 
 
 1. How to train: Our training is based on PT-MAP, refering to the codes [here](https://github.com/yhu01/PT-MAP). Simply add lines of codes (during training) to randomly sample some illuminations scaled to the same size as the support samples (inputs or the features in the hidden layers). Then mix up the support samples and the illumination features for training. 
-2. How to reproduce: Use the [pretrained models](https://drive.google.com/file/d/1wVJlDnU00Gurs0pw54ZMqf4XsWhJWHIh/view) on miniImageNet, CUB and CIFAR-FS using WRN. Then train the models further as introduced in the 1st step. Our trained final models are released [here](https://drive.google.com/drive/folders/1iQzZdFte8gcLtIZdDXASqpCgJLMnUCuP?usp=sharing). Please read the model useing the file io_utils.py (not to untar the model files). 
+2. How to reproduce: Use the [pretrained models](https://drive.google.com/file/d/1wVJlDnU00Gurs0pw54ZMqf4XsWhJWHIh/view) on miniImageNet, CUB and CIFAR-FS using WRN. Then train the models further as introduced in the 1st step. Our trained final models are released [here](https://drive.google.com/drive/folders/1iQzZdFte8gcLtIZdDXASqpCgJLMnUCuP?usp=sharing). Please read the model using the file io_utils.py (not to untar the model files). 
 
 ## Training Tips 
 1. For better results, increase the batchsize (64 or 128). For limited GPU memory, set the batchsize as 16. 
